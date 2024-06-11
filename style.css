@@ -1,0 +1,88 @@
+body {
+  box-sizing: border-box;
+  margin: 0;
+  margin-top: 5rem;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.h1 {
+  color: rgb(8, 6, 6);
+  text-align: center;
+  margin-top: 10px;
+  font-size: 3rem;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+
+.searchForm {
+  text-align: center;
+}
+
+.tvSearchInput {
+  border: 1px solid rgb(20, 17, 17);
+  border-radius: 10px;
+  padding: 6px 18px;
+  border-right: none;
+  border-bottom-right-radius: 0;
+  border-top-right-radius: 0;
+  font-size: 16px;
+  outline: none;
+}
+
+.search-button {
+  border: none;
+  font-size: 18px;
+  padding: 6px 10px;
+  border-bottom-right-radius: 10px;
+  border-top-right-radius: 10px;
+  background-color: rgb(69, 69, 233);
+  color: white;
+  cursor: pointer;
+}
+
+.searchBtn:hover {
+  background-color: rgb(46, 46, 255);
+}
+
+.flex {
+  width: 90%;
+  margin: auto;
+  margin-top: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
+.card {
+  padding-bottom: 30px;
+  border-radius: 10px;
+  flex-basis: 23%;
+  margin: 0 20px;
+  border: 1px solid rgba(114, 114, 114, 0.1);
+  margin-bottom: 20px;
+  position: relative;
+  cursor: pointer;
+}
+
+.cardImg {
+  border-top-left-radius: 10px;
+  border-top-right-radius: 10px;
+  width: 100%;
+}
+
+.cardBtn {
+  font-size: 18px;
+  text-decoration: none;
+  color: white;
+  font-weight: 500;
+  background-color: rgb(73, 73, 247);
+  padding: 8px 16px;
+  position: absolute;
+  border-radius: 5px;
+  bottom: 10px;
+}
+
+.cardBtn:hover {
+  background-color: rgb(42, 42, 233);
+}
