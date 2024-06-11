@@ -22,6 +22,7 @@ searchBtn.addEventListener("click", async function (e) {
         let newCard = createCard(movieObject.show);
         displayData.append(newCard);
       }
+      searchInput.value = "";
     }
   } catch (e) {
     displayData.innerHTML = "<h1>Uh Oh! something went wrong</h1>"
